@@ -15,27 +15,29 @@
 
 ### Screenshot and live site URL
 
-| Desktop                                     | Tablet                                    | Mobile                                    |
-| ------------------------------------------- | ----------------------------------------- | ----------------------------------------- |
-| ![desktop](/images/desktop-screenshot.jpeg) | ![Tablet](/images/tablet-screenshot.jpeg) | ![Mobile](/images/mobile-screenshot.jpeg) |
+| Desktop                                    | Tablet                                   | Mobile                                   |
+| ------------------------------------------ | ---------------------------------------- | ---------------------------------------- |
+| ![desktop](/images/desktop-screenshot.png) | ![Tablet](/images/tablet-screenshot.png) | ![Mobile](/images/mobile-screenshot.png) |
 
-[Live Site URL](Link)
+[Live Site URL](https://noonpanirsabzi.github.io/testimonial-section/)
 
 ## My process
 
 ### Built with
 
-- ?
+- CSS grid
 
 ### What I learned
 
-#### ?:
-
-1. ?
+1. CSS background image and positioning it correctly
 
 ### Useful resources
 
-- [title](link): explanation
+- [background-image](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
+- [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
+- [background-repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
+
+
 
 ## Author
 
