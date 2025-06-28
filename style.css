@@ -1,0 +1,125 @@
+:root {
+  --white: #FFFFFF;
+  --mild-gray: #48556A;
+  --purple: #733FC8;
+  --mild-purple: #A775F1;
+  --bg-color: #ECF2F8;
+  --navy-blue: #19202D;
+  --mild-white: #CFCFCF;
+}
+
+body {
+  margin: 0;
+  padding-inline: 1.5rem;
+  padding-block: clamp(4rem, 14.3vw , 10.25rem);
+  background-color: var(--bg-color);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-style: normal;
+}
+
+p, blockquote {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-block: 1.125rem 1rem;
+} 
+
+blockquote {
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+.name {
+  color: var(--white);
+  font-size: 0.8125rem;
+  line-height: 0.8125rem;
+  margin-block: 0 0.25rem;
+}
+
+.job {
+  color: var(--white);
+  opacity: 50%;
+  font-size: 0.6875rem;
+  line-height: 0.6875rem;
+  margin-block: 0;
+}
+
+.name.gray {
+  color: var(--mild-gray);
+}
+
+.job.gray {
+  color: var(--mild-gray);
+}
+
+.item1{
+  background-color: var(--purple);
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top 0px right clamp(24px, 6.4vw, 80px);
+}
+
+.item2 {
+  background-color: var(--mild-gray);
+}
+
+.item4 {
+  background-color: var(--navy-blue);
+}
+
+.white-bg {
+  background-color: var(--white);
+}
+
+.white-heading {
+  color: var(--white);
+}
+
+.gray-heading {
+  color: var(--mild-gray);
+}
+
+.white-p {
+  color: var(--mild-white);
+  opacity: 70%;
+}
+
+.gray-p {
+  color: var(--mild-gray);
+  opacity: 70%;
+}
+
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.2474);
+  padding-inline: 2rem;
+  padding-block: 1.625rem 2rem;
+}
+
+.profile {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  inline-size: 1.75rem;
+  block-size: 1.75rem;
+}
+
+.purple-border {
+  border: 2px solid var(--mild-purple);
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1.5rem;
+  column-gap: 1.875rem;
+}
